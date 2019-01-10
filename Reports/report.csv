@@ -1,0 +1,20 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+TestSuite1,Chrome 71.0.3578.98,,2019-01-10 14:59:19,2019-01-10 15:00:02,42.340s,PASSED
+,,,,,,
+Test Cases/CIS_Login,Chrome 71.0.3578.98,,2019-01-10 14:59:20,2019-01-10 14:59:32,12.105s,PASSED
+"openBrowser("""")",Chrome 71.0.3578.98,,2019-01-10 14:59:20,2019-01-10 14:59:25,5.014s,PASSED
+"navigateToUrl(""http://erp.cisin.com/login.asp"")",Chrome 71.0.3578.98,,2019-01-10 14:59:25,2019-01-10 14:59:28,2.610s,PASSED
+delay(2),Chrome 71.0.3578.98,,2019-01-10 14:59:28,2019-01-10 14:59:30,2.027s,PASSED
+"setText(findTestObject(""Object Repository/cis/Page_Cyber Infrastructure/input_Email_uname""), ""naresh.r@cisinlabs.com"")",Chrome 71.0.3578.98,,2019-01-10 14:59:30,2019-01-10 14:59:30,0.300s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/cis/Page_Cyber Infrastructure/input_Password_pass""), ""qeJ0sjJnwEs="")",Chrome 71.0.3578.98,,2019-01-10 14:59:30,2019-01-10 14:59:31,0.328s,PASSED
+"click(findTestObject(""Object Repository/cis/Page_Cyber Infrastructure/input_Password_submit-login""))",Chrome 71.0.3578.98,,2019-01-10 14:59:31,2019-01-10 14:59:31,0.351s,PASSED
+closeBrowser(),Chrome 71.0.3578.98,,2019-01-10 14:59:31,2019-01-10 14:59:32,0.928s,PASSED
+,,,,,,
+Test Cases/Login,Chrome 71.0.3578.98,,2019-01-10 14:59:32,2019-01-10 15:00:02,29.784s,PASSED
+"openBrowser("""")",Chrome 71.0.3578.98,,2019-01-10 14:59:32,2019-01-10 14:59:42,10.104s,PASSED
+maximizeWindow(),Chrome 71.0.3578.98,,2019-01-10 14:59:42,2019-01-10 14:59:43,1.138s,PASSED
+"navigateToUrl(""https://www.zee5.com/"")",Chrome 71.0.3578.98,,2019-01-10 14:59:43,2019-01-10 14:59:54,11.079s,PASSED
+delay(4),Chrome 71.0.3578.98,,2019-01-10 14:59:54,2019-01-10 14:59:58,4.002s,PASSED
+"click(findTestObject(""Object Repository/HomePage/Page_Watch TV Serials Original Show/span_Not Now""))",Chrome 71.0.3578.98,,2019-01-10 14:59:58,2019-01-10 14:59:59,0.410s,PASSED
+delay(2),Chrome 71.0.3578.98,,2019-01-10 14:59:59,2019-01-10 15:00:01,2.002s,PASSED
+closeBrowser(),Chrome 71.0.3578.98,,2019-01-10 15:00:01,2019-01-10 15:00:02,0.716s,PASSED

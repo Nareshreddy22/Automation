@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TestSuite1" time="42" tests="2" failures="0" errors="0">
+   <testsuite name="TestSuite1" tests="2" failures="0" errors="0" time="42" timestamp="2019-01-10 14:59:19" hostname="naresh.reddy - ZL-HYD-LT0048.zee.esselgroup.local" id="Test Suites/TestSuite1">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\naresh.reddy\\git\\Automation\\Reports\\TestSuite1\\20190110_145916"/>
+         <property name="logFiles" value="C:\\Users\\naresh.reddy\\git\\Automation\\Reports\\TestSuite1\\20190110_145916\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="naresh.reddy - ZL-HYD-LT0048.zee.esselgroup.local"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.9.1.2"/>
+         <property name="browser" value="Chrome 71.0.3578.98"/>
+         <property name="hostAddress" value="10.33.21.57"/>
+         <property name="sessionId" value="bffd1802493262751527c67505b562f8"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/CIS_Login" classname="Test Cases/CIS_Login" status="PASSED">
+         <system-out><![CDATA[2019-01-10 14:59:20 - [TEST_CASE][PASSED] - Test Cases/CIS_Login: Test Cases/CIS_Login
+
+2019-01-10 14:59:20 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-01-10 14:59:21 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-01-10 14:59:21 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-01-10 14:59:25 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-01-10 14:59:25 - [TEST_STEP][PASSED] - navigateToUrl("http://erp.cisin.com/login.asp"): Navigate to 'http://erp.cisin.com/login.asp' successfully
+
+2019-01-10 14:59:28 - [MESSAGE][PASSED] - Navigate to 'http://erp.cisin.com/login.asp' successfully
+
+2019-01-10 14:59:28 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-01-10 14:59:30 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-01-10 14:59:30 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/cis/Page_Cyber Infrastructure/input_Email_uname"), "naresh.r@cisinlabs.com"): Text 'naresh.r@cisinlabs.com' is set on object 'Object Repository/cis/Page_Cyber Infrastructure/input_Email_uname'
+
+2019-01-10 14:59:30 - [MESSAGE][PASSED] - Text 'naresh.r@cisinlabs.com' is set on object 'Object Repository/cis/Page_Cyber Infrastructure/input_Email_uname'
+
+2019-01-10 14:59:30 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/cis/Page_Cyber Infrastructure/input_Password_pass"), "qeJ0sjJnwEs="): Text ****** has been set on object 'Object Repository/cis/Page_Cyber Infrastructure/input_Password_pass'
+
+2019-01-10 14:59:31 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/cis/Page_Cyber Infrastructure/input_Password_pass'
+
+2019-01-10 14:59:31 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/cis/Page_Cyber Infrastructure/input_Password_submit-login")): Object: 'Object Repository/cis/Page_Cyber Infrastructure/input_Password_submit-login' is clicked on
+
+2019-01-10 14:59:31 - [MESSAGE][PASSED] - Object: 'Object Repository/cis/Page_Cyber Infrastructure/input_Password_submit-login' is clicked on
+
+2019-01-10 14:59:31 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-01-10 14:59:32 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login" classname="Test Cases/Login" status="PASSED">
+         <system-out><![CDATA[2019-01-10 14:59:32 - [TEST_CASE][PASSED] - Test Cases/Login: Test Cases/Login
+
+2019-01-10 14:59:32 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-01-10 14:59:32 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-01-10 14:59:42 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-01-10 14:59:42 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-01-10 14:59:43 - [MESSAGE][PASSED] - Current window maximized
+
+2019-01-10 14:59:43 - [TEST_STEP][PASSED] - navigateToUrl("https://www.zee5.com/"): Navigate to 'https://www.zee5.com/' successfully
+
+2019-01-10 14:59:54 - [MESSAGE][PASSED] - Navigate to 'https://www.zee5.com/' successfully
+
+2019-01-10 14:59:54 - [TEST_STEP][PASSED] - delay(4): Delayed 4 second(s)
+
+2019-01-10 14:59:58 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2019-01-10 14:59:58 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/HomePage/Page_Watch TV Serials Original Show/span_Not Now")): Object: 'Object Repository/HomePage/Page_Watch TV Serials Original Show/span_Not Now' is clicked on
+
+2019-01-10 14:59:59 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/Page_Watch TV Serials Original Show/span_Not Now' is clicked on
+
+2019-01-10 14:59:59 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-01-10 15:00:01 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-01-10 15:00:01 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-01-10 15:00:02 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-01-10 14:59:19 - [TEST_SUITE][PASSED] - TestSuite1: Test Cases/Login]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
