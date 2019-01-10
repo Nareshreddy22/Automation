@@ -14,10 +14,14 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
 WebUI.openBrowser('')
-WebUI.maximizeWindow()
-WebUI.navigateToUrl('https://www.zee5.com/')
-WebUI.delay(4)
-WebUI.click(findTestObject('Object Repository/HomePage/Page_Watch TV Serials Original Show/span_Not Now'))
+
+WebUI.navigateToUrl('http://erp.cisin.com/login.asp')
 WebUI.delay(2)
+WebUI.setText(findTestObject('Object Repository/cis/Page_Cyber Infrastructure/input_Email_uname'), 'naresh.r@cisinlabs.com')
+
+WebUI.setEncryptedText(findTestObject('Object Repository/cis/Page_Cyber Infrastructure/input_Password_pass'), 'qeJ0sjJnwEs=')
+
+WebUI.click(findTestObject('Object Repository/cis/Page_Cyber Infrastructure/input_Password_submit-login'))
+
 WebUI.closeBrowser()
 
