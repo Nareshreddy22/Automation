@@ -15,7 +15,9 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://stackoverflow.com/')
+WebUI.navigateToUrl('https://www.katalon.com/')
+WebUI.delay(5)
+WebUI.click(findTestObject('Object Repository/Katalon/Page_Katalon Studio Simplify API We/a_Why Free'))
 
 WebUI.closeBrowser()
 

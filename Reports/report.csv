@@ -1,0 +1,25 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+TestSuite1,Chrome 71.0.3578.98,,2019-01-10 14:46:20,2019-01-10 14:47:43,1m - 22.769s,PASSED
+,,,,,,
+Test Cases/CIS_Login,Chrome 71.0.3578.98,,2019-01-10 14:46:22,2019-01-10 14:46:37,15.692s,PASSED
+"openBrowser("""")",Chrome 71.0.3578.98,,2019-01-10 14:46:23,2019-01-10 14:46:30,7.331s,PASSED
+"navigateToUrl(""http://erp.cisin.com/login.asp"")",Chrome 71.0.3578.98,,2019-01-10 14:46:30,2019-01-10 14:46:33,2.951s,PASSED
+delay(2),Chrome 71.0.3578.98,,2019-01-10 14:46:33,2019-01-10 14:46:35,2.034s,PASSED
+"setText(findTestObject(""Object Repository/cis/Page_Cyber Infrastructure/input_Email_uname""), ""naresh.r@cisinlabs.com"")",Chrome 71.0.3578.98,,2019-01-10 14:46:35,2019-01-10 14:46:36,0.268s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/cis/Page_Cyber Infrastructure/input_Password_pass""), ""qeJ0sjJnwEs="")",Chrome 71.0.3578.98,,2019-01-10 14:46:36,2019-01-10 14:46:36,0.269s,PASSED
+"click(findTestObject(""Object Repository/cis/Page_Cyber Infrastructure/input_Password_submit-login""))",Chrome 71.0.3578.98,,2019-01-10 14:46:36,2019-01-10 14:46:36,0.290s,PASSED
+closeBrowser(),Chrome 71.0.3578.98,,2019-01-10 14:46:36,2019-01-10 14:46:37,0.947s,PASSED
+,,,,,,
+Test Cases/Login,Chrome 71.0.3578.98,,2019-01-10 14:46:37,2019-01-10 14:47:00,22.960s,PASSED
+"openBrowser("""")",Chrome 71.0.3578.98,,2019-01-10 14:46:38,2019-01-10 14:46:43,5.269s,PASSED
+maximizeWindow(),Chrome 71.0.3578.98,,2019-01-10 14:46:43,2019-01-10 14:46:44,1.213s,PASSED
+"navigateToUrl(""https://www.zee5.com/"")",Chrome 71.0.3578.98,,2019-01-10 14:46:44,2019-01-10 14:46:53,9.167s,PASSED
+delay(4),Chrome 71.0.3578.98,,2019-01-10 14:46:53,2019-01-10 14:46:57,4.006s,PASSED
+"click(findTestObject(""Object Repository/HomePage/Page_Watch TV Serials Original Show/span_Not Now""))",Chrome 71.0.3578.98,,2019-01-10 14:46:57,2019-01-10 14:46:57,0.149s,PASSED
+delay(2),Chrome 71.0.3578.98,,2019-01-10 14:46:57,2019-01-10 14:46:59,2.002s,PASSED
+closeBrowser(),Chrome 71.0.3578.98,,2019-01-10 14:46:59,2019-01-10 14:47:00,0.805s,PASSED
+,,,,,,
+Test Cases/guru99,Chrome 71.0.3578.98,,2019-01-10 14:47:00,2019-01-10 14:47:43,42.811s,PASSED
+"openBrowser("""")",Chrome 71.0.3578.98,,2019-01-10 14:47:01,2019-01-10 14:47:05,4.422s,PASSED
+"navigateToUrl(""https://www.guru99.com/"")",Chrome 71.0.3578.98,,2019-01-10 14:47:05,2019-01-10 14:47:42,37.060s,PASSED
+closeBrowser(),Chrome 71.0.3578.98,,2019-01-10 14:47:42,2019-01-10 14:47:43,0.816s,PASSED
